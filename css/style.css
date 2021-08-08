@@ -1,0 +1,262 @@
+* {
+	padding: 0;
+	margin: 0;	
+}
+html {
+  overflow-y: scroll;
+}
+body {
+	font-family: Roboto,sans-serif;
+	background-color: #fff;	
+}
+.wrapper {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 35px 0px 10px;		
+}
+.wrapper > a {	
+	text-decoration: none;
+}
+#selections {
+	background: #2f455c url("../images/background.jpg") no-repeat center top;
+	background-size: cover;
+}
+h1 {
+	color: #fff;
+	font-size: 2.2rem;
+	text-align: center;
+	margin-bottom: 16px;
+}
+.right {
+	float: right;
+}
+#logos {
+	display: block;
+	padding-bottom: 30px;
+	margin: 14px auto 5px;
+	max-width: 100%;
+}
+form {
+	text-align: center;		
+}
+#filters {	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+#selections #filters > div {
+	display: inline-block;
+	margin: 0 10px 16px 10px;	
+	text-align: left;
+}
+input[type="submit"]{
+	padding: 10px 90px;
+	margin-top: 25px;
+	border-radius: 5px; 
+	background: #26c139;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+	cursor: pointer;	
+	border: 0;
+}
+input[type="submit"]:hover{	 
+	background: #1a9b29;
+	transition: all 0.2s ease;
+}
+#filters > div > label{
+	display: block;
+	color: #fff;
+	padding-bottom: 8px;
+}
+label, input{
+	cursor: pointer;
+	vertical-align: middle;
+}
+input {
+	margin-right: 2px;
+}
+#outages{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.event {
+	width: 26%;
+	display: inline-block;
+	background-color: #fff;
+	padding: 30px 2.5%;
+	margin: 0.4rem 1%;
+	font-size: 0.9em;
+	color: #777;
+	border: 1px solid #eeeeee;
+	vertical-align: top;
+}
+.event .details, .event .approvals {
+	display: flex;
+	line-height: 1.5;
+}
+.event .col{
+	width: 50%;
+	padding: 10px 0;
+	vertical-align: bottom;
+}
+.event .col div:first-child { 
+	padding: 7px 0;
+}
+.event .col div {
+	padding: 2px 0;
+}
+.event .col .stage {
+	font-size: .8em;
+	position: inherit;
+}
+.event .col:first-child span { 
+	position: relative;
+	bottom: 6px;
+	left: 5px;
+}
+.event .col:nth-child(2) span { 
+	position: relative;
+	bottom: 3px;
+	left: 5px;
+}
+.event .col p {
+	display: inline-block;
+}
+.event .approvals, .event .content { border-top: 1px solid #eee; }
+.event .content p {
+	margin: 12px 0;
+	font-style: italic;
+}
+a.morelink {
+	text-decoration:none;
+	outline: none;
+	font-style: normal;
+}
+a.morelink:hover {
+	text-decoration: underline;
+}
+.morecontent span {
+	display: none;
+
+}
+.main {
+	display: flex;
+	padding-top: 0;
+}
+.main .colL { 
+	width: 14%; 
+	max-width: 250px; 
+	min-width: 200px;
+	background-color: #f5f4f0;	
+	padding: 20px 25px;
+}
+.main .colR {
+	width: 84%;
+	padding: 20px 0 20px 18px;
+}
+fieldset {	
+	width: 100%;
+	text-align: left;
+	border-top: 1px solid #e5e3db;
+	border-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+	margin: 0;
+	padding: 8px 0;
+}
+legend{
+	float: left;
+	width: 100%;
+}
+legend h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+label {
+	font-size: 15px;
+}
+#loading {
+	text-align: center;
+	background: url('../images/loading.gif') no-repeat center;
+	height: 150px;
+}
+legend + div {
+	clear: both;
+}
+.list-group-item {
+	padding: 3px 0;
+	cursor: pointer;
+}
+.list-group-item:hover {
+	background-color: #e2e2e2;
+	display: block;	
+}
+.narrow-results {	
+	margin: 0 auto;
+}
+.narrow-results h2 {
+	font-size: 20px;
+	padding-bottom: 3px;	
+}
+.narrow-results > p, .reset-filters {	
+	font-weight: 500;
+	color: #999;
+	margin: 3px 0 5px;
+	text-decoration: none;
+}
+.field-link {
+	display: block;
+	color: #333;
+	margin: 10px 0;
+}
+.field-link:hover {
+	text-decoration: none;
+}
+#no-no h2 {
+	text-align: center;
+	color: #444;
+	margin: 10px 0 22px;
+}
+#no-no table {
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+#no-no th, #no-no td{
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+#no-no th {
+	text-align: left;
+	background-color: #3b9e3f;
+	color: #fff;
+	font-weight: normal;
+}
+#no-no th:first-child {
+	background-color: #d03636;
+}
+#no-no tr:nth-child(even){
+	background-color: #f5f4f0;
+}
+
+@media (max-width: 1000px){
+	h1 {
+		font-size: 2.1rem;
+	}
+	.event {
+		width: 80%;
+		margin: 0.4rem auto;
+	}
+	#outages {
+		flex-direction: column;
+	}	
+}
+@media (max-width: 640px){
+	.main .colL { 
+	min-width: 200px;
+	}
+}
