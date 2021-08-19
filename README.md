@@ -2,10 +2,10 @@
 
 ## About This Project
 
-This tool was built to give team members a way to store and filter messaging for customers in the event of service disruptions.
+This tool was built to give team members a way to store, filter and browse through messaging for customers, to be used in the event of service disruptions.
 
 ## Stack
 
 **Languages:** PHP, MySQL, Javascript, CSS, HTML  
 **Libraries:** jQuery  
-**Database & Industry Tool:** phpMyAdmin, Photoshop
+**Database & Industry Tools:** phpMyAdmin, Photoshop
