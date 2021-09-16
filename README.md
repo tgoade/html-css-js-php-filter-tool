@@ -6,6 +6,6 @@ This tool was built to give team members a way to store, filter and browse throu
 
 ## Stack
 
-**Languages:** PHP, MySQL, Javascript, CSS, HTML  
+**Languages:** PHP, MySQL, Javascript/Ajax, CSS, HTML  
 **Libraries:** jQuery  
 **Database & Industry Tools:** phpMyAdmin, Photoshop
