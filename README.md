@@ -8,4 +8,5 @@ This tool was built to give team members a way to store, filter and browse throu
 
 **Languages:** PHP, MySQL, Javascript(Ajax), CSS, HTML  
 **Libraries:** jQuery  
-**Database & Industry Tools:** phpMyAdmin, Photoshop
+**Database:** phpMyAdmin  
+**Software:** Photoshop
